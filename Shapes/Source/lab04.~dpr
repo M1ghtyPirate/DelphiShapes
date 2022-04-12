@@ -1,0 +1,17 @@
+program lab04;
+
+uses
+  Forms,
+  MainUnit in '..\..\ËÐ03\Source\MainUnit.pas' {Form1},
+  uImageClass in '..\..\ËÐ03\Unit\uImageClass.pas',
+  uPlotterClass in '..\..\ËÐ03\Unit\uPlotterClass.pas';
+
+//,
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
